@@ -251,7 +251,7 @@ blocks:
     comment: ''
     maxoutbuf: '0'
     minoutbuf: '0'
-    model_filename: gr-fpga_ai/examples/rfClassification.xmodel
+    model_filename: /home/root/gr-fpga_ai/examples/rfClassification.xmodel
   states:
     bus_sink: false
     bus_source: false

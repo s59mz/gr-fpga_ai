@@ -124,7 +124,7 @@ blocks:
     comment: ''
     maxoutbuf: '0'
     minoutbuf: '0'
-    model_filename: gr-fpga_ai/examples/rfClassification.xmodel
+    model_filename: /home/root/gr-fpga_ai/examples/rfClassification.xmodel
   states:
     bus_sink: false
     bus_source: false
@@ -137,12 +137,12 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    classes_file: gr-fpga_ai/examples/rf_classes.npy
+    classes_file: /home/root/gr-fpga_ai/examples/rf_classes.npy
     comment: ''
-    index: '62'
+    index: '100'
     maxoutbuf: '0'
     minoutbuf: '0'
-    samples_file: gr-fpga_ai/examples/rf_input.npy
+    samples_file: /home/root/gr-fpga_ai/examples/rf_input.npy
   states:
     bus_sink: false
     bus_source: false
