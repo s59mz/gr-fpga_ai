@@ -1,6 +1,6 @@
 # Install the project...
 
-mkdir /usr/lib/cmake/fpga_ai/
+mkdir -p /usr/lib/cmake/fpga_ai/
 cp ../gr-fpga_ai/cmake/Modules/fpga_aiConfig.cmake /usr/lib/cmake/fpga_ai/
 
 mkdir /usr/include/fpga_ai/
