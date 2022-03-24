@@ -151,7 +151,7 @@ class rf_classf(gr.sync_block):
             maxValue = np.amax(softmax)
 
             out[i] = np.short(modulation)
-            print(f"{i} Modulation = {modulation_name}\t Prob: {maxValue:.2f}")
+            print(f"Modulation = {modulation_name}\t Inx = {modulation}\t Prob: {maxValue:.2f}")
         
         return len(output_items[0])
 
